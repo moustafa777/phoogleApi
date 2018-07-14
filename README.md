@@ -6,8 +6,10 @@ after that you can also compare it with another phone, also you can find it on a
 
 Techology stack:
 
+
+APi project: [ the current repository ]
+	servlet
+	database [ not confirmed yet] 
+
 Client project:
 	html,JSP,css, javascript
-APi project:
-	servlet
-	database [ not confirmed yet]
