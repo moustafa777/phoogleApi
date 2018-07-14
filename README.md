@@ -8,8 +8,9 @@ Techology stack:
 
 
 APi project: [ the current repository ]
-	servlet
+
+	servlet and
 	database [ not confirmed yet] 
 
 Client project:
-	html,JSP,css, javascript
+	html,JSP,css and javascript
