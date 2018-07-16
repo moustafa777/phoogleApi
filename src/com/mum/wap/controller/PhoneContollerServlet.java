@@ -19,7 +19,7 @@ import model.Phone;
 /**
  * Servlet implementation class PhoneContollerServlet
  */
-@WebServlet("/phoneAPI/search")
+@WebServlet("/search")
 public class PhoneContollerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private PhoneService phoneService;
@@ -54,6 +54,9 @@ public class PhoneContollerServlet extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+		} else if(request.getParameterMap().containsKey("deviceName")) {
+			
+			
 		}
 
 	//	response.getWriter().append("Served at: ").append(request.getContextPath());
@@ -84,6 +87,12 @@ public class PhoneContollerServlet extends HttpServlet {
 		String x = mapper.writeValueAsString(phones);
 		return x;
 
+	}
+	private String getPhoneByName(String deviceName)  throws Exception {
+		
+		
+		return "vd";
+		
 	}
 
 }
