@@ -14,7 +14,7 @@ public class FillystemData {
 
 		phones = new ArrayList<>();
 
-		Phone phone1 = new Phone("samsung galaxy S9 active", "GSM / CDMA / HSPA / EVDO / LTE", "samsung",
+		Phone phone1 = new Phone("Samsung galaxy S9 active", "GSM / CDMA / HSPA / EVDO / LTE", "samsung",
 				"Not announced yet", "Rumored", "5.8 inches, 85.4 cm2",
 				"1440 x 2960 pixels, 18.5:9 ratio (~568 ppi density)",500, "https://www.sprint.com/content/dam/sprint/commerce/devices/samsung/samsung_galaxy_s8_active/gray/devicenb_650x900.png/jcr:content/renditions/cq5dam.thumbnail.290.370.png");
 
