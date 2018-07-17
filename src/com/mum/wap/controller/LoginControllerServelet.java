@@ -71,6 +71,7 @@ public class LoginControllerServelet extends HttpServlet {
 	private String getUserByCredential(String username, String password) throws Exception {
 
 		User user = userDao.getUserByCredential(username, password);
+		List<User> xx = userDao.getAllUsers();
 
 		ObjectMapper mapper = new ObjectMapper();
 

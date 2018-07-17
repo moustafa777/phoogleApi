@@ -25,6 +25,7 @@ public class UserDAO {
 	}
 
 	public void updateUser(User user) {
+		user.setId(genId());
 		usersDb.put(user.getUsername(), user);
 	}
 
