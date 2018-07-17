@@ -17,11 +17,12 @@ public class Phone {
 	private String status;
 	private String size;
 	private String resolution;
+	private String image;
 	private int price;
 	
 	
 	public Phone(String deviceName, String technology, String brand, String announced, String status, String size,
-			String resolution, int price) {
+			String resolution, int price, String image) {
 		super();
 		this.deviceName = deviceName;
 		this.technology = technology;
@@ -31,6 +32,7 @@ public class Phone {
 		this.size = size;
 		this.resolution = resolution;
 		this.price = price;
+		this.image = image;
 	}
 
 
@@ -109,11 +111,19 @@ public class Phone {
 	}
 
 
+
+
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
-	
+
+	public String getImage() {
+		return this.image;
+	}
+
+	public String setImage(String image) {
+		return this.image = image;
+	}
 	
 	
 	

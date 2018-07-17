@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="phoogleApi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="phoogleApi-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="phoogleApi:war exploded" />
+    </root>
+  </artifact>
+</component>
