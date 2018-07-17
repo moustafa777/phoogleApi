@@ -3,7 +3,6 @@ package com.mum.wap.controller;
 import java.io.IOException;
 import java.util.List;
 
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
@@ -54,10 +53,7 @@ public class PhoneContollerServlet extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		} else if(request.getParameterMap().containsKey("deviceName")) {
-			
-			
-		}
+		} 
 
 	//	response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
@@ -88,11 +84,5 @@ public class PhoneContollerServlet extends HttpServlet {
 		return x;
 
 	}
-	private String getPhoneByName(String deviceName)  throws Exception {
-		
-		
-		return "vd";
-		
-	}
-
+	
 }
