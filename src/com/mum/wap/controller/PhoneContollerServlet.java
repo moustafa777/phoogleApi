@@ -76,7 +76,7 @@ public class PhoneContollerServlet extends HttpServlet {
 
 	private String getAllPhoneForBrand(String brand) throws Exception {
 
-		List<Phone> phones = phoneService.getAllPhoneForBrand(brand);
+		List<Phone> phones = phoneService.getAllPhoneForBrand(brand.toLowerCase());
 
 		ObjectMapper mapper = new ObjectMapper();
 
